@@ -24,10 +24,10 @@ resource "aws_instance" "app_server" {
 }
 
 resource "aws_s3_bucket" "example" {
-  bucket = "my-terraform-bucket"
+  bucket = "my-stanga-terr-bucket"
 
   tags = {
-    Name        = "My bucket"
+    Name        = "myshilpa-terr-bucket"
     Environment = "Dev"
   }
 }
