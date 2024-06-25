@@ -16,6 +16,7 @@ provider "aws" {
 resource "aws_instance" "app_server" {
   ami           = "ami-0e001c9271cf7f3b9"
   instance_type = "t2.micro"
+  #Your Subnet ID
 
   tags = {
     Name = "MyTerraformCLI-instance"
